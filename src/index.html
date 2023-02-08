@@ -7,10 +7,11 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="main">
+    <section class="main">
         <div class="container">
             <div class="header">
                 <div class="header__logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
@@ -32,8 +33,8 @@
                 <div class="main__link">или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a></div>
             </div>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <section class="benefits">
         <div class="container">
             <h3 class="benefits__title">НАШИ ПРЕИМУЩЕСТВА</h3>
             <div class="benefits__items">
@@ -51,8 +52,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <div class="consultation__title">Получите бесплатную консультацию <br>по подбору пульсометра </div>
             <div class="consultation__descr">Просто заполните форму заявки <br>и мы перезвоним вам в течении 10 минут</div>
@@ -69,6 +70,42 @@
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
-    </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__wrapper">
+                <div class="carousel__item"><img src="img/carousel/slide_first.png" alt="pulsometr"></div>
+                <div class="carousel__item"><img src="img/carousel/slide_second.png" alt="pulsometr"></div>
+                <div class="carousel__item"><img src="img/carousel/slide_third.png" alt="pulsometr"></div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog__title">Каталог пульсометров</div>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
+                <li class="catalog__tab"><div>для бега</div></li>
+                <li class="catalog__tab"><div>для триатлона</div></li>
+            </ul>
+            <div class="catalog-item">
+                <img src="img/catalog/item.png" alt="item" class="catalog-item__img">
+                <div class="catalog-item__title">Пульсометр Polar FT1</div>
+                <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                <div class="catalog-item__content">
+                    <div class="catalog-item__price">
+                        <div class="catalog-item__old">4 750 руб.</div>
+                        <div class="catalog-item__new">4 500 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
